@@ -26,8 +26,9 @@ Manejará las colisiones
 *1.f)La esfera tiene físicas, el cubo es de tipo IsTrigger y tiene físicas.
 ![img/1.f.gif](img/1.f.gif)
 
-*1.e)La esfera y el cubo son físicos y la esfera tiene 10 veces la masa del cubo,
+*1.g)La esfera y el cubo son físicos y la esfera tiene 10 veces la masa del cubo,
 se impide la rotación del cubo sobre el plano XZ.
+
 Antes
 ![img/1.g1.gif](img/1.g1.gif)
 Despues
