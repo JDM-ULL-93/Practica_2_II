@@ -71,10 +71,10 @@ public class NPGOHandler : MonoBehaviour
         {
             //Rotación
             if (Input.GetKey(KeyCode.Q))
-                this.transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y - 5.0f, 0.0f); //this.transform.Rotate(0.0f, -0.25f, 0.0f);
+                this.transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y - 5.0f, 0.0f); //==this.transform.Rotate(0.0f, -0.25f, 0.0f);
                 
             if (Input.GetKey(KeyCode.E))
-                this.transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y + 5.0f, 0.0f); //this.transform.Rotate(0.0f, 0.25f, 0.0f);
+                this.transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y + 5.0f, 0.0f); //==this.transform.Rotate(0.0f, 0.25f, 0.0f);
 
            
 
@@ -82,7 +82,7 @@ public class NPGOHandler : MonoBehaviour
             if (Input.GetKey((KeyCode)forward))
             {
                 var mov = (Vector3.forward * Time.deltaTime) * scale;
-                this.transform.Translate(mov);//this.gameObject.transform.position = this.gameObject.transform.position + (Vector3.forward*Time.deltaTime)* scale;
+                this.transform.Translate(mov);//==this.gameObject.transform.position = this.gameObject.transform.position + (Vector3.forward*Time.deltaTime)* scale;
                 alejaCilindros(mov);
             }
                

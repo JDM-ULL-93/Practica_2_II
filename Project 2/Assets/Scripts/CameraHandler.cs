@@ -13,17 +13,16 @@ public class CameraHandler : MonoBehaviour
     {
         camara = this.GetComponent<Camera>();
         //camara.aspect = 0.5f;
-        matrixProjection = camara.previousViewProjectionMatrix;
+        //matrixProjection = camara.previousViewProjectionMatrix;
         //camara.cameraToWorldMatrix;
         //camara.worldToCameraMatrix;
         //camara.orthographic = true;
-        Debug.Log(matrixProjection);
+        //Debug.Log(matrixProjection);
     }
 
     // Update is called once per frame
     void Update()
     {
-        matrixOrthogonalProjection = camara.previousViewProjectionMatrix;
         
     }
 }
